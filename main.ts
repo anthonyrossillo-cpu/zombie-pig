@@ -1,6 +1,3 @@
 player.onChat("run", function () {
-	
-})
-player.onItemInteracted(IRON_SHOVEL, function () {
-	
+    mobs.spawn(LIGHTNING_BOLT, pos(0, 0, 0))
 })
